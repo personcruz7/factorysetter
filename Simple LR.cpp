@@ -5,7 +5,7 @@ import seaborn as sns
 from sklearn.linear_model import LinearRegression
 
 
-url='https://raw.githubusercontent.com/BhushanDhamankar/ML_Datasets/main/USA_Housing.csv'
+url=''
 df=pd.read_csv(url)
 df.head()
 
