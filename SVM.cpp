@@ -5,7 +5,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import confusion_matrix,accuracy_score
 
 
-url=''
+url='diabetes'
 df=pd.read_csv(url)
 df.head()
 
